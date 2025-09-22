@@ -15,23 +15,23 @@ final Map<String, Map<int, XY>> kFormationGrids = {
     4: const XY(0.37, 0.62),
     8: const XY(0.63, 0.62),
     11: const XY(0.90, 0.62),
-    10: const XY(0.33, 0.88), // ซ้าย
-    9: const XY(0.67, 0.88), // ขวา
+    10: const XY(0.4, 0.84), // ซ้าย
+    9: const XY(0.6, 0.84), // ขวา
   },
 
   // 4-1-2-1-2 / 41212 (แถว: 1) (2 5 6 3) (7) (4 8) (10) (9 11)
   '41212': {
-    1: const XY(0.425, 0.05),
-    2: const XY(0.05, 0.22),
-    5: const XY(0.28, 0.22),
-    6: const XY(0.58, 0.22),
-    3: const XY(0.81, 0.22),
-    4: const XY(0.425, 0.40), // single DM
-    7: const XY(0.15, 0.55),
-    11: const XY(0.68, 0.55),
-    10: const XY(0.425, 0.65), // tip of diamond
-    9: const XY(0.3, 0.8),
-    8: const XY(0.55, 0.8),
+    1: const XY(0.5, 0.12),
+    2: const XY(0.10, 0.32),
+    5: const XY(0.37, 0.32),
+    6: const XY(0.63, 0.32),
+    3: const XY(0.90, 0.32),
+    4: const XY(0.5, 0.53), // single DM
+    7: const XY(0.10, 0.6),
+    11: const XY(0.9, 0.6),
+    8: const XY(0.5, 0.75),
+    10: const XY(0.33, 0.85), // ซ้าย
+    9: const XY(0.67, 0.85), // ขวา
   },
 
   // 4-3-3 (แถว: 1) (2 5 6 3) (7 4 8) (10 9 11)

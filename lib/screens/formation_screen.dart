@@ -13,15 +13,15 @@ class FormationScreen extends StatefulWidget {
 }
 
 class _FormationScreenState extends State<FormationScreen> {
-  String topFormation = '442';
-  String bottomFormation = '442';
+  String topFormation = '41212';
+  String bottomFormation = '41212';
 
   final List<String> formations = [
     '442',
+    '41212',
     '433',
     '451',
     '4411',
-    '41212',
     '4141',
     '352',
     '343',
