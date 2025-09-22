@@ -6,15 +6,15 @@ typedef XY = Offset;
 final Map<String, Map<int, XY>> kFormationGrids = {
   // 4-4-2 (แถว: 1) (2 5 6 3) (7 4 8 11) (10 9)
   '442': {
-    1: const XY(0.425, 0.02),
-    2: const XY(0.05, 0.27),
-    5: const XY(0.25, 0.27),
-    6: const XY(0.61, 0.27),
-    3: const XY(0.81, 0.27),
-    7: const XY(0.05, 0.50),
+    1: const XY(0.425, 0.05),
+    2: const XY(0.05, 0.22),
+    5: const XY(0.28, 0.22),
+    6: const XY(0.58, 0.22),
+    3: const XY(0.81, 0.22),
+    7: const XY(0.05, 0.52),
     4: const XY(0.28, 0.52),
     8: const XY(0.58, 0.52),
-    11: const XY(0.81, 0.50),
+    11: const XY(0.81, 0.52),
     10: const XY(0.3, 0.8),
     9: const XY(0.55, 0.8),
   },

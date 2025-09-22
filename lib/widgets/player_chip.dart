@@ -18,8 +18,7 @@ class PlayerChip extends StatelessWidget {
     return invert
         ? Transform.rotate(
             angle: pi,
-            child: Container(
-              color: Colors.red,
+            child: SizedBox(
               width: 52,
               child: Column(
                 children: [
@@ -28,7 +27,7 @@ class PlayerChip extends StatelessWidget {
                     height: 28,
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: Colors.red.withValues(alpha: 0.5),
+                      color: Colors.red,
                       shape: BoxShape.circle,
                       border: Border.all(color: Colors.black26, width: 1),
                     ),
@@ -48,8 +47,7 @@ class PlayerChip extends StatelessWidget {
                 ],
               ),
             ))
-        : Container(
-            color: Colors.red,
+        : SizedBox(
             width: 52,
             child: Column(
               children: [
@@ -58,7 +56,7 @@ class PlayerChip extends StatelessWidget {
                   height: 28,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: Colors.red.withValues(alpha: 0.5),
+                    color: Colors.white,
                     shape: BoxShape.circle,
                     border: Border.all(color: Colors.black26, width: 1),
                   ),
