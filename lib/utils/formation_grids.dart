@@ -19,6 +19,21 @@ final Map<String, Map<int, XY>> kFormationGrids = {
     9: const XY(0.55, 0.8),
   },
 
+  // 4-1-2-1-2 / 41212 (แถว: 1) (2 5 6 3) (7) (4 8) (10) (9 11)
+  '41212': {
+    1: const XY(0.425, 0.05),
+    2: const XY(0.05, 0.22),
+    5: const XY(0.28, 0.22),
+    6: const XY(0.58, 0.22),
+    3: const XY(0.81, 0.22),
+    4: const XY(0.425, 0.40), // single DM
+    7: const XY(0.15, 0.55),
+    11: const XY(0.68, 0.55),
+    10: const XY(0.425, 0.65), // tip of diamond
+    9: const XY(0.3, 0.8),
+    8: const XY(0.55, 0.8),
+  },
+
   // 4-3-3 (แถว: 1) (2 5 6 3) (7 4 8) (10 9 11)
   '433': {
     1: const XY(0.43, 0.13),
@@ -62,21 +77,6 @@ final Map<String, Map<int, XY>> kFormationGrids = {
     11: const XY(0.81, 0.50),
     10: const XY(0.43, 0.70),
     9: const XY(0.43, 0.85),
-  },
-
-  // 4-1-2-1-2 / 41212 (แถว: 1) (2 5 6 3) (7) (4 8) (10) (9 11)
-  '41212': {
-    1: const XY(0.43, 0.13),
-    2: const XY(0.05, 0.25),
-    5: const XY(0.25, 0.27),
-    6: const XY(0.61, 0.27),
-    3: const XY(0.81, 0.25),
-    7: const XY(0.43, 0.45), // single DM
-    4: const XY(0.28, 0.60),
-    8: const XY(0.58, 0.60),
-    10: const XY(0.43, 0.72), // tip of diamond
-    9: const XY(0.35, 0.85),
-    11: const XY(0.51, 0.85),
   },
 
   // 4-1-4-1 (แถว: 1) (2 5 6 3) (7) (4 8 10 11) (9)
