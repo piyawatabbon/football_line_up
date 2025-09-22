@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 typedef XY = Offset;
 
-/// ชุดพิกัดสำหรับรูปแบบ formation ต่างๆ
 final Map<String, Map<int, XY>> kFormationGrids = {
-  // 4-4-2 (แถว: 1) (2 5 6 3) (7 4 8 11) (10 9)
   '442': {
     1: const XY(0.5, 0.12),
     2: const XY(0.10, 0.32),
@@ -15,41 +13,38 @@ final Map<String, Map<int, XY>> kFormationGrids = {
     4: const XY(0.37, 0.62),
     8: const XY(0.63, 0.62),
     11: const XY(0.90, 0.62),
-    10: const XY(0.4, 0.84), // ซ้าย
-    9: const XY(0.6, 0.84), // ขวา
+    10: const XY(0.4, 0.84),
+    9: const XY(0.6, 0.84),
   },
 
-  // 4-1-2-1-2 / 41212 (แถว: 1) (2 5 6 3) (7) (4 8) (10) (9 11)
   '41212': {
     1: const XY(0.5, 0.12),
     2: const XY(0.10, 0.32),
     5: const XY(0.37, 0.32),
     6: const XY(0.63, 0.32),
     3: const XY(0.90, 0.32),
-    4: const XY(0.5, 0.53), // single DM
+    4: const XY(0.5, 0.53),
     7: const XY(0.10, 0.6),
     11: const XY(0.9, 0.6),
     8: const XY(0.5, 0.75),
-    10: const XY(0.33, 0.85), // ซ้าย
-    9: const XY(0.67, 0.85), // ขวา
+    10: const XY(0.33, 0.85),
+    9: const XY(0.67, 0.85),
   },
 
-  // 4-3-3 (แถว: 1) (2 5 6 3) (7 4 8) (10 9 11)
   '433': {
     1: const XY(0.5, 0.12),
-    2: const XY(0.05, 0.22),
-    5: const XY(0.28, 0.22),
-    6: const XY(0.58, 0.22),
-    3: const XY(0.81, 0.22),
-    7: const XY(0.25, 0.50), // คนซ้าย
-    4: const XY(0.50, 0.50), // คนกลาง
-    8: const XY(0.75, 0.50),
-    10: const XY(0.425, 0.8),
-    9: const XY(0.15, 0.8),
-    11: const XY(0.71, 0.8),
+    2: const XY(0.10, 0.32),
+    5: const XY(0.37, 0.32),
+    6: const XY(0.63, 0.32),
+    3: const XY(0.90, 0.32),
+    7: const XY(0.25, 0.58),
+    4: const XY(0.50, 0.58),
+    8: const XY(0.75, 0.58),
+    10: const XY(0.25, 0.84),
+    9: const XY(0.50, 0.84),
+    11: const XY(0.75, 0.84),
   },
 
-  // 4-5-1 (แถว: 1) (2 5 6 3) (7 4 10 8 11) (9)
   '451': {
     1: const XY(0.43, 0.13),
     2: const XY(0.05, 0.25),
@@ -64,7 +59,6 @@ final Map<String, Map<int, XY>> kFormationGrids = {
     9: const XY(0.43, 0.85),
   },
 
-  // 4-4-1-1 (แถว: 1) (2 5 6 3) (7 4 8 11) (10) (9)
   '4411': {
     1: const XY(0.43, 0.13),
     2: const XY(0.05, 0.25),
@@ -79,7 +73,6 @@ final Map<String, Map<int, XY>> kFormationGrids = {
     9: const XY(0.43, 0.85),
   },
 
-  // 4-1-4-1 (แถว: 1) (2 5 6 3) (7) (4 8 10 11) (9)
   '4141': {
     1: const XY(0.43, 0.10),
     2: const XY(0.05, 0.25),
