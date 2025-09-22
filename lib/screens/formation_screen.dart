@@ -48,13 +48,13 @@ class _FormationScreenState extends State<FormationScreen> {
       teamName: 'Team A (TOP)',
       formationUsed: topFormation,
       players: List.generate(
-          11, (i) => Player(name: 'Axxxxxx${i + 1}', formationPlace: i + 1)),
+          11, (i) => Player(name: 'A${i + 1}', formationPlace: i + 1)),
     );
     final sampleBottom = Lineup(
       teamName: 'Team B (BOTTOM)',
       formationUsed: bottomFormation,
       players: List.generate(
-          11, (i) => Player(name: 'Bxxxxxxx${i + 1}', formationPlace: i + 1)),
+          11, (i) => Player(name: 'B${i + 1}', formationPlace: i + 1)),
     );
 
     return Scaffold(

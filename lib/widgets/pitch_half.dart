@@ -29,14 +29,14 @@ class PitchHalf extends StatelessWidget {
             var playerX = pos.dx;
             var playerY = pos.dy;
 
-            final dx = playerX.clamp(0.04, 0.96);
-            final dy = playerY.clamp(0.04, 0.96);
-            final left = dx * w;
-            final top = dy * h;
+            // คำนวณตำแหน่งให้ box อยู่ตรงกลาง
+            // PlayerChip กว้าง 52px ดังนั้นต้องลบครึ่งความกว้าง (26px) ออก
+            final centerX = playerX * w - 26; // ลบครึ่งความกว้าง
+            final centerY = playerY * h - 24; // ลบครึ่งความสูงประมาณ
 
             return Positioned(
-              left: left,
-              top: top,
+              left: centerX,
+              top: centerY,
               child: PlayerChip(
                 label: p.name,
                 number: p.formationPlace,

@@ -6,17 +6,17 @@ typedef XY = Offset;
 final Map<String, Map<int, XY>> kFormationGrids = {
   // 4-4-2 (แถว: 1) (2 5 6 3) (7 4 8 11) (10 9)
   '442': {
-    1: const XY(0.425, 0.05),
-    2: const XY(0.05, 0.22),
-    5: const XY(0.28, 0.22),
-    6: const XY(0.58, 0.22),
-    3: const XY(0.81, 0.22),
-    7: const XY(0.05, 0.52),
-    4: const XY(0.28, 0.52),
-    8: const XY(0.58, 0.52),
-    11: const XY(0.81, 0.52),
-    10: const XY(0.3, 0.8),
-    9: const XY(0.55, 0.8),
+    1: const XY(0.5, 0.12),
+    2: const XY(0.10, 0.32),
+    5: const XY(0.37, 0.32),
+    6: const XY(0.63, 0.32),
+    3: const XY(0.90, 0.32),
+    7: const XY(0.10, 0.62),
+    4: const XY(0.37, 0.62),
+    8: const XY(0.63, 0.62),
+    11: const XY(0.90, 0.62),
+    10: const XY(0.33, 0.88), // ซ้าย
+    9: const XY(0.67, 0.88), // ขวา
   },
 
   // 4-1-2-1-2 / 41212 (แถว: 1) (2 5 6 3) (7) (4 8) (10) (9 11)
@@ -36,17 +36,17 @@ final Map<String, Map<int, XY>> kFormationGrids = {
 
   // 4-3-3 (แถว: 1) (2 5 6 3) (7 4 8) (10 9 11)
   '433': {
-    1: const XY(0.43, 0.13),
-    2: const XY(0.05, 0.25),
-    5: const XY(0.25, 0.27),
-    6: const XY(0.61, 0.27),
-    3: const XY(0.81, 0.25),
-    7: const XY(0.15, 0.50),
-    4: const XY(0.43, 0.55),
-    8: const XY(0.71, 0.50),
-    10: const XY(0.23, 0.80),
-    9: const XY(0.43, 0.85),
-    11: const XY(0.63, 0.80),
+    1: const XY(0.5, 0.12),
+    2: const XY(0.05, 0.22),
+    5: const XY(0.28, 0.22),
+    6: const XY(0.58, 0.22),
+    3: const XY(0.81, 0.22),
+    7: const XY(0.25, 0.50), // คนซ้าย
+    4: const XY(0.50, 0.50), // คนกลาง
+    8: const XY(0.75, 0.50),
+    10: const XY(0.425, 0.8),
+    9: const XY(0.15, 0.8),
+    11: const XY(0.71, 0.8),
   },
 
   // 4-5-1 (แถว: 1) (2 5 6 3) (7 4 10 8 11) (9)
